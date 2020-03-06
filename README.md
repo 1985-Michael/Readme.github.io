@@ -1,7 +1,7 @@
 
 ---------------
 <center><font size="6px">Michael Myers</center></font>
- ---------------
+
 #
 
 <strong style="color: red">Username:</strong>
