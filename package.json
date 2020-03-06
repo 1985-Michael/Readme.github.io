@@ -1,0 +1,21 @@
+{
+    "name": "readmegen",
+    "version": "1.0.0",
+    "description": "ReadME",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "author": "Michael Myers",
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^7.0.5",
+        "util": "^0.12.2",
+        "axios": "^0.19.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://https://github.com/1985-Michael/Readme.github.io"
+    },
+    "homepage": "https: //github.com/1985-Michael/Readme.github.io"
+}
