@@ -1,7 +1,7 @@
 
 ---------------
-<center><font size="6px">Michael Myers</center></font>
-
+<center><font size="6px">Michael</center></font>
+ ---------------
 #
 
 <strong style="color: red">Username:</strong>
@@ -10,12 +10,12 @@
  ---------------
 ## <strong style="color: red">Project</strong> 
 
-Readme Gen
+Readme
 
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## <strong style="color: red">Description</strong>
-Creates a ReadMe
+creates a Readme
 ## <strong style="color: red">Table of Contents</strong>
 #
 * [Usage](#usage)
@@ -28,15 +28,15 @@ MIT
 #
 * [Contribution](#contribution)
 
-Same as above
+please contribute
 #
 * [Tips](#tips)
 
-You must contribute
+contribute
 #
 * [Tests](#tests)
 
-Npm Test
+nmp test
 #
 * [Installation](#installation)
 
@@ -44,7 +44,6 @@ Please run a npm i and npm test using node.js
 #
 For any Questions, Email: Mike@pridesash.com
 #
-<img src="https://anthonymyers1985.weebly.com/uploads/5/7/4/5/57459889/12743696-10201449901526425-1933875123050792984-n_orig.jpg"
-alt="avatar" border= "2px" width="50px" height="50px" />
+![image]https://avatars3.githubusercontent.com/u/11791361?v=4
 #
 If you're reading this. It only means one thing, you might just be a miracle baby..

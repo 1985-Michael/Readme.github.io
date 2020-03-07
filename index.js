@@ -60,14 +60,13 @@ let getName;
 getName = (data) => {
     let queryUrl;
     queryUrl = `https://api.github.com/users/${data.name}`;
-    axios.get(queryUrl).then(function(response) {
-        return response;
-    });
+    return axios.get(queryUrl)
+
 };
 
 let generateMarkDown;
 
-generateMarkDown = (data) => {
+generateMarkDown = (data, image) => {
     return `
 ---------------
 <center><font size="6px">${data.Name}</center></font>
@@ -114,8 +113,7 @@ Please run a npm i and npm test using node.js
 #
 For any Questions, Email: Mike@pridesash.com
 #
-<img src="https://anthonymyers1985.weebly.com/uploads/5/7/4/5/57459889/12743696-10201449901526425-1933875123050792984-n_orig.jpg"
-alt="avatar" border= "2px" width="50px" height="50px" />
+![image]${image}
 #
 If you're reading this. It only means one thing, you might just be a miracle baby..
 `;
@@ -126,7 +124,7 @@ async function init() {
     try {
         const data = await promptUser();
         const image = await getName(data);
-        const readMe = generateMarkDown(data, image);
+        const readMe = generateMarkDown(data, image.data.avatar_url);
         await writeFileAsync("README.md", readMe);
         console.log("Wrote a Successful README.md");
     } catch (err) {
