@@ -68,8 +68,10 @@ let generateMarkDown;
 
 generateMarkDown = (data, image) => {
     return `
----------------
+ ---------------
+
 <center><font size="6px">${data.Name}</center></font>
+ 
  ---------------
 #
 
@@ -115,7 +117,9 @@ For any Questions, Email: Mike@pridesash.com
 #
 <img src="${image}" alt="avatar" style="border-radius: 16px" width="30"/>
 #
+
 If you're reading this. It only means one thing, you might just be a miracle baby..
+
 `;
 
 };
