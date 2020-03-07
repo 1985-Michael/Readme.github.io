@@ -113,7 +113,7 @@ Please run a npm i and npm test using node.js
 #
 For any Questions, Email: Mike@pridesash.com
 #
-![image]${image}
+<img src="${image}" alt="avatar" style="border-radius: 16px" width="30"/>
 #
 If you're reading this. It only means one thing, you might just be a miracle baby..
 `;

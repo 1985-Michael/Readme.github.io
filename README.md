@@ -1,8 +1,8 @@
 
 ---------------
-#
 <center><font size="6px">Michael Myers</center></font>
  ---------------
+#
 
 <strong style="color: red">Username:</strong>
 
@@ -36,7 +36,7 @@ contribute
 #
 * [Tests](#tests)
 
-nmp test
+npm test
 #
 * [Installation](#installation)
 
@@ -44,6 +44,6 @@ Please run a npm i and npm test using node.js
 #
 For any Questions, Email: Mike@pridesash.com
 #
-![image]https://avatars3.githubusercontent.com/u/11791361?v=4
+<img src="https://avatars3.githubusercontent.com/u/11791361?v=4" alt="avatar" style="border-radius: 16px" width="30"/>
 #
 If you're reading this. It only means one thing, you might just be a miracle baby..
